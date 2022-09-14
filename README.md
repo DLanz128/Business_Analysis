@@ -7,12 +7,12 @@ Overview: In this project I created a program that helps users create a business
 
 ## get_business() function
 
-#### The `get_business()` function serves as the input mechanism for the program. It prompts the user for a number of inputs including starting cash reserves, daily fixed costs, ending day (the starting day will be automatically generated as the day the program is run), and any number or product lines for the company. Each product line will consist of a product name, estimated daily sales, profit margin, and projected yearly growth rate. It will return all these values as a tuple consisting of a dictionary of the business relevant information and the ending date.
+The `get_business()` function serves as the input mechanism for the program. It prompts the user for a number of inputs including starting cash reserves, daily fixed costs, ending day (the starting day will be automatically generated as the day the program is run), and any number or product lines for the company. Each product line will consist of a product name, estimated daily sales, profit margin, and projected yearly growth rate. It will return all these values as a tuple consisting of a dictionary of the business relevant information and the ending date.
 
 ## generate_sales() function
 
-#### The `generate_sales()` function takes the ending date and product lines given in the previous step as parameters and randomly generates daily sales for each based on +/- 10% of average sales times the projected growth rate
+The `generate_sales()` function takes the ending date and product lines given in the previous step as parameters and randomly generates daily sales for each based on +/- 10% of average sales times the projected growth rate
 
 ## create_report() function
 
-#### The `create_report` function takes the sales data and uses matplotlib to dynamically create a pdf report for the company featuring a line chart of daily sales for each product
+The `create_report` function takes the sales data and uses matplotlib to dynamically create a pdf report for the company featuring a line chart of daily sales for each product
