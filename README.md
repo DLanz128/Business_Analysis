@@ -1,9 +1,9 @@
 # Business_Analysis
 Business Analysis Made Easy
 
-## Video Demo:  https://youtu.be/WQIJnhX7f-c
+#### Video Demo:  https://youtu.be/WQIJnhX7f-c
 
-## Overview: In this project I created a program that helps users create a business model and track sales, revenue and profit over time. It consists of four key functions. The `get_business()` function has the user input business information such as name starting cash reserves, information about product lines, projected growth rates, and the amount of time they would like to track the company for. Next, he `generate_sales()` function tracks these products over time, generating random sales per day based on estimated daily sales and the projected growth rate. Finally, the program converts this to a pandas data frame and generates plots of the sales data for the time period given.
+Overview: In this project I created a program that helps users create a business model and track sales, revenue and profit over time. It consists of four key functions. The `get_business()` function has the user input business information such as name starting cash reserves, information about product lines, projected growth rates, and the amount of time they would like to track the company for. Next, he `generate_sales()` function tracks these products over time, generating random sales per day based on estimated daily sales and the projected growth rate. Finally, the program converts this to a pandas data frame and generates plots of the sales data for the time period given.
 
 ## get_business() function
 
